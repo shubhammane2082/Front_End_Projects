@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Table</title>
+    <link rel="stylesheet" href="../CSS/Table.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header1">
+            <div class="logo">
+                <img src="..//Assets/1434020125875430376profile.png" alt="image not found"
+                    style="border-radius: 2px solid green; height: 30px; width: 30px;">
+            </div>
+            <div class="heading">
+                <div id="H1">Employee</div>
+                <div id="H2">Payroll</div>
+            </div>
+        </div>
+        <div class="header2">
+            Add Employee Payroll UI/UX Design
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="sectionheader">
+            <div class="SH1">
+                Employee Details
+            </div>
+            <div class="SH2">
+                <button id="search" title="title"><img src="../Assets/15-150759_search-icon-search-icon-png-blue.png" alt="">
+                    <button id="adduser">+ Add User</button>
+            </div>
+        </div>
+
+        <table class="maintable" id="employeelist">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Gender</th>
+                    <th>Salary</th>
+                    <th>Start Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="myclass">
+                <!-- <tr>
+                    <td> <img src="../Assets/Business-Woman.jpg" height="50px" width="50px" style="border-radius: 50%;">
+                    </td>
+                    <td>Keerthi Shetty</td>
+                    <td>Female</td>
+                    <td>
+                        <button class="button-row">Sales</button>
+                        <button class="button-row">HR</button>
+                        <button class="button-row">Finance</button>
+                    </td>
+                    <td>&#8377 10000</td>
+                    <td>19 Oct 2019</td>
+                    <td>
+                        <img src="../Assets/delete.png" height="20px" width="20px"> &nbsp;
+                        <img src="../Assets/modify-icon-25.png" height="20px" width="20px">
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+    <script src="../Script/Table.js"></script>
+</body>
+
+</html>

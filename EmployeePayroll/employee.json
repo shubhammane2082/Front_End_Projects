@@ -1,0 +1,24 @@
+{
+  "Data": [
+    {
+      "id": 1,
+      "name": "Shubham",
+      "profileImage": "1",
+      "gender": "male",
+      "salary": "₹ 20000",
+      "departments": "[\"HR\"]",
+      "date": "07/04/08",
+      "notes": "This is notes"
+    },
+    {
+      "id": "4a55",
+      "name": "f",
+      "profileImage": "1",
+      "gender": "Female",
+      "salary": "₹ 20000",
+      "departments": "[\"Sales\"]",
+      "date": "06/04/06",
+      "notes": "This is notes"
+    }
+  ]
+}

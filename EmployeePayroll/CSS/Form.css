@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    /* padding: 0; */
+    height: 100%;
+    width: 100%;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100vw;
+    height: 8vh;
+    /* border: 2px solid black; */
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 15%;
+    height: 100%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 52%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 40%;
+}
+.first_Image{
+    height: 30px;
+    width: 30px;
+   border-radius: 50%;
+}
+#H1{
+    color: rgb(160,250, 60);
+}
+
+
+
+.header2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 57%;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+section{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    width: 100vw;
+    height: 85vh;
+    margin: 10px;
+    background-color: rgba(240,220, 220, 0.8);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 95%;
+    background-color: white;
+
+}
+
+.Formcontent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 10%;
+}
+#emp{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+    height: 100%;
+    
+}
+
+.inputside
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   width: 75%;
+   height: 100%;
+   
+}
+input{
+    width: 100%;
+    height: 50%;
+    
+}
+
+.inputside img
+{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 50px;
+}
+.RB{
+    width: 16px;
+    height: 16px;
+}
+.image-selector{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.gndr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    width: 10%;
+}
+#gndr1{
+    width: 15%;
+}
+#gndr2{
+    width: 15%;
+}
+
+.checkboxall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+.salary{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 60%;
+    width: 75%;
+    /* border: 2px solid blue; */
+    
+}
+.salary1{
+    /* border: 2px solid khaki; */
+    height: 5vh;
+    width: 20vw;
+    padding: 5px;
+    margin-left: 50px;
+}
+#slry{
+    width: 60%;
+    margin-right:55px;
+    /* border: 2px solid lawngreen; */
+}
+
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    
+    
+}
+.date1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    height: 23px;
+    
+}
+
+#sd{
+    width: 50%;
+    height: 80%;
+}
+
+.textarea{
+    position: relative;
+    top: 10px;
+    width: 75%;
+    height: 60px;
+    /* border: 2px solid slateblue; */
+    margin-left: 155px;
+   
+}
+.Formcontent9{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    top: 28px;
+    width: 80%;
+    height: 15%;
+}
+
+.btn1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.btn2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+}
+
+button{
+    height: 70%;
+    width: 100px;
+}

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    height: 20%;
+    margin-top: 30px;
+}
+
+.h-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 90%;
+    
+}
+.logo{
+    padding-left: 20px;
+    margin: 15px;
+}
+.logo img{
+    /* border: 2px solid slateblue; */
+    height: 40px;
+    width: 170px;
+}
+.menu{
+    /* border: 2px solid bisque; */
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu img{
+    height: 30px;
+    width: 30px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.menu ul
+{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu li{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.menu li:hover{
+    color: azure;
+    cursor: pointer;
+}
+
+.main-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid hotpink; */
+    margin-top: 80px;
+    
+}
+
+.image-container{
+    width: 25%;
+    margin-bottom: 70px;
+    /* border: 1px solid greenyellow; */
+    margin-top: 20px;
+    
+}
+
+.image-container h4{
+    font-size: inherit;
+    font-weight: inherit;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-container h6{
+    font-size: inherit;
+    font-weight: inherit;
+    color: whitesmoke;
+    font-size: 13px;
+    margin-left: 12px;
+}
+.main-section img{
+    width: 95%;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 10px;
+
+}
+.footer{
+    /* border: 2px solid green; */
+    width: 100vw;
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #161f1e;
+}
+
+.left{
+    /* border: 2px solid greenyellow; */
+    width: 40%;
+    margin-top: 150px;
+    padding-left: 80px;
+}
+
+.right
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    /* border: 2px solid ghostwhite; */
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.right-div1 ul
+{
+    list-style: none;
+}
+
+.right-div2 ul
+{
+    list-style: none;
+    margin-left: 70px;
+}
+
+.right-div3 ul
+{
+    list-style: none;
+    margin-left: 40px;
+    padding-right: 20px;
+}
+.left div
+{
+    margin-top: 320px;
+}
+
+.menu li a
+{
+    color: white;
+}
