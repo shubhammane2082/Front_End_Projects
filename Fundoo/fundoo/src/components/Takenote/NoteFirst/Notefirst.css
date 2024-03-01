@@ -1,0 +1,16 @@
+.container{
+    height: 20vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#standard-basic{
+    height: 6vh;
+    width: 35vw;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-weight: bold;
+}

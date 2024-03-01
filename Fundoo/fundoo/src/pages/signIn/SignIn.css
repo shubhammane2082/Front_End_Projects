@@ -1,0 +1,268 @@
+/* body{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    
+}
+.google-logo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-logo img{
+    height: 60px;
+    width: 60px;
+}
+.signin{
+   
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.signin h1{
+    font-weight: 600;
+    font-size: 15px;
+    color: blue;
+}
+.google-account{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: flex-start;
+    font-size: 15px;
+    border-bottom: 20px solid transparent; 
+}
+.emailPass{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailPassone{
+    width: 50%;
+}
+.emailPasstwo{
+    width: 50%;
+}
+.emailPass h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: blue;
+}
+
+.twobutton{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#create,#submit
+{
+    background-color: #007fff;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    text-align: center;
+} */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.google-logo{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-logo img{
+    height: 60px;
+    width: 60px;
+}
+.signin{
+   
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.signin h1{
+    font-weight: 600;
+    font-size: 15px;
+    color: blue;
+}
+.google-account{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 15px;
+    border-bottom: 20px solid transparent;
+    text-align: center;
+}
+.emailPass{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailPassone{
+    width: 50%;
+}
+.emailPasstwo{
+    width: 50%;
+}
+#outlined-basicthree{
+    width: 450px;
+}
+.emailPass h1{
+    font-size: 12px;
+    font-weight: 500;
+    color: blue;
+}
+
+.twobutton{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#create,#submit
+{
+    background-color: #007fff;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    text-align: center;
+} 
+
+@media (max-width: 768px) {
+    .header {
+      width: 60vw;
+      height: 70vh;
+    }
+    .emailPass {
+      height: 30%;
+      width: 80%;
+    }
+    #outlined-basicthree {
+      width: 100%;
+    }
+    .twobutton{
+        height: 10%;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .header {
+      width: 100vw;
+    }
+    .google-account{
+        margin-bottom: 10px;
+    }
+    .signin h1{
+        color: #007fff;
+    }
+    .emailPassone,.emailPasstwo{
+        width: 120%;
+    }
+    .emailPass h1 {
+      font-size: 10px;
+    }
+    #outlined-basicthree {
+      width: 90%;
+    }
+    .twobutton{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 50vw;
+        height: 50vh;
+        border: 2px solid black;
+    }
+    .emailPassone,.emailPasstwo{
+        width: 50vw;
+    }
+    .emailPass h1 {
+      font-size: 10px;
+    }
+    #outlined-basicthree {
+      width: 80%;
+    }
+}
+
+@media (max-width: 280px) {
+    .header {
+      width: 90vw;
+    }
+    .google-account{
+        margin-bottom: 10px;
+    }
+    .emailPassone,.emailPasstwo{
+        width: 100%;
+    }
+    .emailPass h1 {
+      font-size: 8px;
+    }
+    #outlined-basicthree {
+      width: 90%;
+    }
+  }

@@ -1,0 +1,243 @@
+/* *{
+    background-color: black;
+} */
+.All {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 75%;
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid gold; */
+  background-color: whitesmoke;
+}
+
+.left-side {
+  width: 60%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.logo {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo img{
+  height: 50px;
+  width: 50px;
+}
+
+.account {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 7%;
+  width: 100%;
+}
+
+.account h1 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.continue {
+  height: 10%;
+  width: 100%;
+}
+
+.names {
+  height: 18%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-start;
+  /* border: 2px solid darkblue; */
+}
+#outlined-basic {
+  width: 200px;
+}
+
+.user {
+  height: 8%;
+  width: 100%;
+}
+
+.state {
+  height: 8%;
+  width: 100%;
+}
+
+.state p {
+  font-size: 13px;
+  text-align: left;
+}
+.password {
+  height: 11%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.password img {
+  height: 25px;
+  width: 25px;
+}
+
+#outlined-basic2 {
+  width: 200px;
+}
+
+.symbol {
+  height: 8%;
+  width: 100%;
+  /* border: 2px solid grey;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.symbol p {
+  font-size: 13px;
+  text-align: left;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 10%;
+  width: 100%;
+  /* border: 2px solid fuchsia; */
+}
+
+#sign {
+  color: #007fff;
+  border-style: none;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.9;
+}
+#next {
+  background-color: #007fff;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  text-align: center;
+}
+
+.right-side {
+  width: 31%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid gold; */
+}
+
+.right-side img {
+  width: 230px;
+  height: 230px;
+  /* border: 2px solid gainsboro; */
+}
+
+.right-side p {
+  font-size: 15px;
+  /* border: 2px solid gainsboro; */
+  position: relative;
+  bottom: 10%;
+}
+
+@media (max-width: 430px) {
+  .main {
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo{
+    height: 8%;
+  }
+  .continue{
+    height: 5%;
+  }
+  .names{
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .password{
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .symbol{
+    width: 100%;
+   margin-top: 50px;
+  }
+  .symbol p{
+    font-size: 9px;
+  }
+  .right-side {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width : 1000px) {
+  .main{
+    width: 100%;
+   
+  }
+  .right-side{
+    width: 31%;
+  }
+  .right-side p{
+    position: static;
+  }
+}
+
+@media screen and (max-width : 290px) 
+{
+  .main{
+    width: 100%;
+    padding: 20px;
+  }
+  .left-side{
+    width: 100%;
+  }
+  .names,.password{
+    max-width: 100%;
+  }
+}
+@media screen  and (min-width : 430px) and (max-width : 767px)
+{
+ .main{
+  width: 100%;
+ } 
+ .names,.password{
+  flex-direction: column;
+  gap: 10px;
+  max-width: 100%;
+}
+.symbol{
+  height: 15%;
+  text-align: left;
+  justify-content: flex-end;
+}
+.symbol p{
+  font-size: 10px;
+}
+.last{
+  margin-bottom: 20px;
+}
+}
